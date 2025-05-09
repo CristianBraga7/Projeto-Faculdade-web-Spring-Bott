@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: VagasFacil
+  datasource:
+    url: jdbc:postgresql://localhost:5433/VagasFacil
+    username: postgres  
+    password: 1010
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
